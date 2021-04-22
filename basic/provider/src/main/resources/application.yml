@@ -29,7 +29,7 @@ servicecomb:
     version: 0.0.1
     registry:
       # Default using local service center
-      address: http://localhost:30100
+      address: https://192.168.0.183:30100
       # address: https://cse.cn-south-1.myhuaweicloud.com
       instance:
         watch: false
@@ -37,7 +37,7 @@ servicecomb:
     client:
       # Default using local config center
       # serverUri: https://cse.cn-south-1.myhuaweicloud.com
-      serverUri: http://localhost:30113
+      serverUri: https://192.168.0.183:30103
       refreshMode: 1
 
   rest:
